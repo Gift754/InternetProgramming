@@ -15,5 +15,5 @@ $conf['site_lang'] = 'en';
 $conf['db_type'] = 'pdo';
 $conf['db_host'] = 'localhost';
 $conf['db_user'] = 'root';
-$conf['db_pass'] = '';
-$conf['db_name'] = 'tol';
+$conf['db_pass'] = 'mynewpassword';
+$conf['db_name'] = 'act';
