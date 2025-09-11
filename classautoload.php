@@ -1,4 +1,5 @@
 <?php
+require 'Plugins/PHPMailer/vendor/autoload.php';
 require 'conf.php';
 $directories = ['layouts', 'forms', 'global'];
 
@@ -12,6 +13,6 @@ spl_autoload_register(function ($class_name) use ($directories) {
     }
 });
 // Create an instance of the class
-$class = new classes();
-$layout = new layout();
-$form = new forms();
+$Objsendmail = new sendmail();
+$Objlayout = new layout();
+$Objforms = new forms();
