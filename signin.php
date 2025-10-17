@@ -1,8 +1,10 @@
 <?php
 require 'classautoload.php';
 
-$Objlayout->header($conf);
-$Objlayout->navbar($conf);
-$Objlayout->banner($conf);
-$Objlayout->form_content($conf, $Objforms);
-$Objlayout->footer($conf);
+$ObjAuth->signin();
+
+$ObjLayout->header();
+$ObjLayout->navbar();
+$ObjLayout->banner();
+$ObjLayout->form_content();
+$ObjLayout->footer();
