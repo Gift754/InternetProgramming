@@ -49,7 +49,7 @@ require_once __DIR__ . "/Lang/" . $conf['site_lang'] . ".php"; // Include langua
 // Email Configuration
 $conf['mail_type'] = 'smtp'; // Options: 'smtp' or 'mail'
 $conf['smtp_host'] = 'smtp.gmail.com'; // For Gmail SMTP
-$conf['smtp_user'] = 'kabetujoseph@gmail.com'; // Your email address
+$conf['smtp_user'] = 'example@gmail.com'; // Your email address
 $conf['smtp_pass'] = 'secretpassword'; // Use App Password if 2FA is enabled
 $conf['smtp_port'] = 465; // For SSL
 $conf['smtp_secure'] = 'ssl'; // Options: 'ssl' or 'tls'
